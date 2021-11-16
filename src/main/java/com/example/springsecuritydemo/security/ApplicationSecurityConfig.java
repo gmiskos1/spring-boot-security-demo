@@ -102,7 +102,7 @@ public class ApplicationSecurityConfig extends WebSecurityConfigurerAdapter {
 //    protected UserDetailsService userDetailsService() {
 //        UserDetails gmiskos = User.builder()
 //                .username("gmiskos")
-//                .password(passwordEncoder.encode("mi3909"))
+//                .password(passwordEncoder.encode("password"))
 //                //.roles(ApplicationUserRole.MEMBER.name())
 //                .authorities(ApplicationUserRole.MEMBER.getGrantedAuthorities())
 //                .build();
